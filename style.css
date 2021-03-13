@@ -1,0 +1,188 @@
+body {
+  font-family: "monospace";
+}
+
+ul li a {
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+}
+
+#navigation {
+  font-weight: bold;
+}
+
+#brand {
+  padding-left: 50px;
+}
+
+#brand-name {
+  font-size: 20px;
+}
+
+#menus {
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0px;
+  height: 500px;
+  /* background: url("./images/sunset.jpg") no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #c4bfb9;
+}
+
+#home-container {
+  align-self: center;
+}
+
+#cloud,
+h3 {
+  color: #fff;
+}
+
+#social-group button {
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+}
+
+#about {
+  margin-bottom: 0px;
+  background: url("./images/sunset.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#about-container {
+  margin: 25px;
+  padding: 10px;
+  width: 35%;
+}
+
+#about-container p {
+  color: white;
+}
+
+#about-container h3 {
+  text-shadow: none;
+}
+
+#portfolio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  height: 800px;
+  background: url("./images/ice.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#portfolio-container {
+  align-self: center;
+}
+
+#portfolio-container h3 {
+  text-shadow: none;
+}
+
+.portitems .portitem {
+  float: left;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  box-shadow: 5px 5px 20px black;
+  color: white;
+}
+
+.portitems .portitem:hover {
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+  border: 1px solid white;
+  box-shadow: 2px 2px grey;
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+  -o-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
+
+#contact {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  background: url("./images/sunset.jpg") no-repeat center bottom fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#contact-container {
+  align-self: center;
+  padding: 10px;
+  text-align: center;
+}
+
+#contact-container h3 {
+  text-shadow: none;
+  color: black;
+}
+
+#contact #contact-container #email {
+  color: white;
+  font-size: 35px;
+  text-shadow: 2px 2px black;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+/* Add Portfolio links and images */
+
+#funily {
+  background-color: rgb(45, 45, 45);
+  background-size: 100%;
+  background-origin: content;
+}
+
+#quote-generator {
+  background-size: 100%;
+  background-origin: content;
+  background-color: rgb(45, 45, 45);
+}
+
+#calculator {
+  background-color: rgb(45, 45, 45);
+  background-size: 100%;
+  background-origin: content;
+}
+
+#pomodoro {
+  background-color: rgb(45, 45, 45);
+  background-size: 100%;
+  background-origin: content;
+}
