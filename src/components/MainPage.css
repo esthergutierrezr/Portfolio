@@ -70,8 +70,8 @@ h3 {
   flex-direction: column;
   margin-left: 65px;
   margin-right: 45px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 #about-container p {
@@ -242,5 +242,9 @@ h3 {
 @media only screen and (min-device-width: 700px) and (max-device-width: 1100px) {
   .row {
     flex-direction: column;
+  }
+  .portitems .portitem {
+    height: 200px;
+    width: 200px;
   }
 }

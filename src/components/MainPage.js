@@ -1,5 +1,6 @@
 import React from "react";
 import "./MainPage.css";
+import BurguerMenu from "./BurgerMenu";
 
 function MainPage() {
   return (
@@ -8,6 +9,7 @@ function MainPage() {
 
       <div class="navbar">
         <div class="navbar__title navbar__item">Esther Gutierrez</div>
+        <BurguerMenu />
         <ul class="navbar">
           <li>
             <a class="navbar__item" href="#home">
