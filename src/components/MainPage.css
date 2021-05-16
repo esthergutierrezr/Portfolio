@@ -226,6 +226,10 @@ h3 {
   color: black;
 }
 
+.label p {
+  background-color: white;
+  color: #5b5757;
+}
 @media only screen and (max-width: 699px) {
   .row {
     flex-direction: column;

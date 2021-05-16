@@ -90,12 +90,16 @@ function MainPage() {
             languages, skills, and technologies.
           </p>
           <h3 class="text-primary">Competencies:</h3>
+          <p>Languages & Frameworks:</p>
           <p>
-            Languages & Frameworks:
-            <br />
             Javascript, ReactJS, HTML5, CSS3, MySQL, NodeJS / Express - Scrum &
             Agile methodologies - Git/Github
           </p>
+          <div>
+            <div className="label">
+              <p>Javascript</p>
+            </div>
+          </div>
         </div>
       </div>
       {/* <!-- Portfolio --> */}
