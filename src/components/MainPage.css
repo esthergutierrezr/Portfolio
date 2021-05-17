@@ -76,10 +76,13 @@ h3 {
 
 #about-container p {
   color: white;
+  font-weight: bold;
 }
 
 #about-container h3 {
   text-shadow: none;
+  font-size: 1.5em;
+  margin-bottom: 12px;
 }
 
 #portfolio {
@@ -226,9 +229,16 @@ h3 {
   color: black;
 }
 
-.label p {
-  background-color: white;
+.labels {
+  display: flex;
+}
+.label-text {
   color: #5b5757;
+  background-color: white;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
 }
 @media only screen and (max-width: 699px) {
   .row {
@@ -250,5 +260,14 @@ h3 {
   .portitems .portitem {
     height: 200px;
     width: 200px;
+  }
+}
+
+@media only screen and (max-device-width: 900px) {
+  .labels {
+    flex-wrap: wrap;
+  }
+  .label-text {
+    margin-top: 5px;
   }
 }

@@ -91,14 +91,16 @@ function MainPage() {
           </p>
           <h3 class="text-primary">Competencies:</h3>
           <p>Languages & Frameworks:</p>
-          <p>
-            Javascript, ReactJS, HTML5, CSS3, MySQL, NodeJS / Express - Scrum &
-            Agile methodologies - Git/Github
-          </p>
-          <div>
-            <div className="label">
-              <p>Javascript</p>
-            </div>
+
+          <div className="labels">
+            <div className="label-text">ReactJS</div>
+            <div className="label-text">Javascript</div>
+            <div className="label-text">HTML5</div>
+            <div className="label-text">CSS3</div>
+            <div className="label-text">NodeJS / Express</div>
+            <div className="label-text">MySQL</div>
+            <div className="label-text">Git/Github</div>
+            <div className="label-text">Scrum & Agile methodologies</div>
           </div>
         </div>
       </div>
